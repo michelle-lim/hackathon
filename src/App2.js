@@ -56,9 +56,11 @@ class App extends Component {
     this.state = {
       data: testData
     };
+    this.fetchData = this.fetchData.bind(this);
+    this.updateDataOnClick = this.updateDataOnClick.bind(this);
   }
 
-    _fetchData(self, fileName) {
+    fetchData(self, fileName) {
         fetch(fileName,{
             headers: {
                 'Accept': 'application/json',
@@ -68,17 +70,23 @@ class App extends Component {
         .then((res) => res.json())
         .then(function(jsonData) {
             // getting hacky for the hackathon
-            self.setState({ data: jsonData })
+            console.log("setting state...");
+            self.setState({ data: jsonData });
         })
         .catch(function(error) {
-            console.log("error occured.")
+            console.log("error occured.");
             console.log(error.message);
         });
     }
 
+    updateDataOnClick(e) {
+        console.log(e);
+        this.fetchData(this, e.target.value);
+    }
+
     componentDidMount() {
         // After initial load, fetch default data
-        var test = this._fetchData(this, 'advisor3.json');
+        this.fetchData(this, 'advisor1.json');
     }
 
     
@@ -92,8 +100,9 @@ class App extends Component {
                     <h1 className="App-title">Hello World!</h1>
                 </header>
                 <div>
-                    <button>Advisor 1</button>
-                    <button>Advisor 2</button>
+                    <button onClick={this.updateDataOnClick} value='advisor1.json'>Advisor 1</button>
+                    <button onClick={this.updateDataOnClick} value='advisor2.json'>Advisor 2</button>
+                    <button onClick={this.updateDataOnClick} value='advisor3.json'>Advisor 3</button>
                 </div>
                 <div className="force-graph-wrapper">
                     <ForceGraph3D 
