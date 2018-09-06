@@ -4,24 +4,19 @@ import { ForceGraph2D, ForceGraph3D, ForceGraphVR } from 'react-force-graph';
 import logo from './logo.svg';
 import './App.css';
 
-// const N = 300;
-// const gData = {
-//   nodes: [...Array(N).keys()].map(i => ({ id: i })),
-//   links: [...Array(N).keys()]
-//     .filter(id => id)
-//     .map(id => ({
-//       source: id,
-//       target: Math.round(Math.random() * (id-1))
-//     }))
-// };
-
-// const Graph = ForceGraph3D()
-//       (document.getElementById('3d-graph'))
-//         .graphData(gData);
+const N = 300;
+const myData = {
+  nodes: [...Array(N).keys()].map(i => ({ id: i })),
+  links: [...Array(N).keys()]
+    .filter(id => id)
+    .map(id => ({
+      source: id,
+      target: Math.round(Math.random() * (id-1))
+    }))
+};
 
 class App extends Component {
   render() {
-    console.log(ForceGraph3D);
     return (
       <div className="App">
         <header className="App-header">
@@ -31,8 +26,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-
-
+        <ForceGraph3D graphData={myData}></ForceGraph3D>
       </div>
     );
   }
