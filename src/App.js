@@ -62,25 +62,68 @@ const testData = {
   ]
 }
 
-async function getData( ) {
-  await fetch('miserables.json', {
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    }
-  })
-    .then(function(res) {
-      console.log(res.text());
-    })
-    .catch(function(error) {
-      console.log(error.message);
-    });
-}
+
+
+// var loadedData = getData();
 
 class App extends Component {
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     data: testData
+  //   };
+  //   this.setDataState = this.setDataState.bind(this);
+  // }
+
+  // setDataState() {
+  //   console.log('Setting data state on event: ')
+  //   fetch('miserables.json', {
+  //     headers: {
+  //       'Accept': 'application/json',
+  //       'Content-Type': 'application/json'
+  //     }
+  //   })
+  //     .then((res) => res.json())
+  //     .then(function(jsonData) {
+  //       console.log(jsonData)
+  //       this.state.data = jsonData;
+  //       // return data;
+  //       console.log('data after state' + this.state.data);
+  //     })
+  //     .catch(function(error) {
+  //       console.log(error.message);
+  //     });
+  // }
+
+  // componentDidMount() {
+  //   console.log('component did mount!');
+  //   console.log('data before set state: ' + this.state.data)
+  //   this.setDataState();
+  // }
+  // componentDidMount() {
+  //   fetch('miserables.json', {
+  //     headers: {
+  //       'Accept': 'application/json',
+  //       'Content-Type': 'application/json'
+  //     }
+  //   })
+  //     .then((res) => res.json())
+  //     .then(function(jsonData) {
+  //       console.log(jsonData)
+  //       this.state.data = jsonData;
+  //       // return data;
+  //     })
+  //     .catch(function(error) {
+  //       console.log(error.message);
+  //     });
+  //   // console.log('hello world');
+  // }
+
+  // fetch('miserables.json').then(res => res.json()).then(data)
+
   render() {
-    let data = getData();
-    console.log('data received: ' + data);
+    // console.log(this.state.data);
+
     return (
       <div className="App">
         <header className="App-header">
