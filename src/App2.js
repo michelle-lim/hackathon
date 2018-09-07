@@ -28,10 +28,12 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: testData
+      data: testData,
+      advisors: []
     };
     this.fetchData = this.fetchData.bind(this);
     this.updateDataOnClick = this.updateDataOnClick.bind(this);
+    this.fetchAdvisors = this.fetchAdvisors.bind(this);
   }
 
     fetchData(self, fileName) {
@@ -53,6 +55,22 @@ class App extends Component {
         });
     }
 
+    fetchAdvisors(self) {
+        fetch('groups.json', {
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        })
+        .then((res) => res.json())
+        .then(function(jsonData) {
+            // THE HACKING CONTINUES
+            console.log("fetching advisor list...");
+            console.log( jsonData );
+            self.setState({ advisors: jsonData });
+        })
+    }
+
     updateDataOnClick(e) {
         console.log("debug...");
         console.log(e.target);
@@ -63,17 +81,22 @@ class App extends Component {
     componentDidMount() {
         // After initial load, fetch default data
         this.fetchData(this, 'advisor1.json');
+        this.fetchAdvisors(this);
     }
 
     render() {
         const { data } = this.state.data;
+        console.log(this.state.advisors);
         return (
             <div className="App">
                 <div>
                 <ul id='dropdown1' class='right dropdown-content'>
-                        <li><button href="#!" onClick={this.updateDataOnClick} className='dropdown-btn waves-effect waves-light btn btn-small btn-flat rsk-nav-item' value='advisor1.json'>Advisor 1</button></li>
-                        <li><button href="#!" onClick={this.updateDataOnClick} className='dropdown-btn waves-effect waves-light btn btn-small btn-flat rsk-nav-item' value='advisor1.json'>Advisor 2</button></li>
-                        <li><button href="#!" onClick={this.updateDataOnClick} className='dropdown-btn waves-effect waves-light btn btn-small btn-flat rsk-nav-item' value='advisor1.json'>Advisor 3</button></li>
+                        {/* <li><button href="#!" onClick={this.updateDataOnClick} className='dropdown-btn waves-effect waves-light btn btn-small btn-flat rsk-nav-item' value='advisor1.json'>Advisor 1</button></li>
+                        <li><button href="#!" onClick={this.updateDataOnClick} className='dropdown-btn waves-effect waves-light btn btn-small btn-flat rsk-nav-item' value='advisor2.json'>Advisor 2</button></li>
+                        <li><button href="#!" onClick={this.updateDataOnClick} className='dropdown-btn waves-effect waves-light btn btn-small btn-flat rsk-nav-item' value='advisor3.json'>Advisor 3</button></li> */}
+                        {this.state.advisors.map((advisor) => {
+                            return <li><button href="#!" onClick={this.updateDataOnClick} className='dropdown-btn waves-effect waves-light btn btn-small btn-flat rsk-nav-item' value={`cloud_100/${advisor}.json`}>Advisor {advisor}</button></li>
+                        })}
                     </ul>
                 <nav>
                 <div class="nav-wrapper">
