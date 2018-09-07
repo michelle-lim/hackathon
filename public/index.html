@@ -3,7 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- <meta name="theme-color" content="#000000"> -->
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
@@ -38,5 +43,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      // hacking this in here because it has scope issues anywhere else
+      document.addEventListener('DOMContentLoaded', function() {
+        var dropdown = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(dropdown);
+      });
+    </script>
   </body>
+  
 </html>

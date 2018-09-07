@@ -1,0 +1,42 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "account_00000000000000098583",
+            "val": 3.970880304788168,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 1,
+            "name": "advisor_3320",
+            "val": 40,
+            "color": "blue"
+        },
+        {
+            "id": 2,
+            "name": "client_139987",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 3,
+            "name": "account_00000000000000098619",
+            "val": 4.884000085593564,
+            "color": "#ccffcc"
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 2,
+            "target": 0
+        },
+        {
+            "source": 2,
+            "target": 3
+        }
+    ]
+}

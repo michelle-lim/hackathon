@@ -1,53 +1,27 @@
 import React, { Component } from 'react';
-import { ForceGraph2D, ForceGraph3D, ForceGraphVR } from 'react-force-graph';
-import logo from './logo.svg';
+import { ForceGraph3D } from 'react-force-graph';
+import logo from './Riskalyze2016.svg';
 import './App.css';
 
 const testData = {
-  "nodes": [
-      {
-          "id": 0,
-          "name": "account_1",
-          "value": 10,
-          "color": "grey"
-      },
-      {
-          "id": 1,
-          "name": "client_10",
-          "value": 10,
-          "color": "grey"
-      },
-      {
-          "id": 2,
-          "name": "advisor_20",
-          "value": 15,
-          "color": "blue"
-      },
-      {
-          "id": 3,
-          "name": "account_2",
-          "value": 10,
-          "color": "grey"
-      }
-  ],
-  "links": [
-      {
-          "source": 1,
-          "target": 0
-      },
-      {
-          "source": 2,
-          "target": 1
-      },
-      {
-          "source": 1,
-          "target": 3
-      },
-      {
-          "source": 2,
-          "target": 1
-      }
-  ]
+    "nodes": [ 
+        { 
+          "id": "id1",
+          "name": "name1",
+          "val": 1 
+        },
+        { 
+          "id": "id2",
+          "name": "name2",
+          "val": 10 
+        }
+    ],
+    "links": [
+        {
+            "source": "id1",
+            "target": "id2"
+        }
+    ]
 }
 
 class App extends Component {
@@ -80,7 +54,9 @@ class App extends Component {
     }
 
     updateDataOnClick(e) {
-        console.log(e);
+        console.log("debug...");
+        console.log(e.target);
+        console.log('e.target.value: ' + e.target.value);
         this.fetchData(this, e.target.value);
     }
 
@@ -89,25 +65,32 @@ class App extends Component {
         this.fetchData(this, 'advisor1.json');
     }
 
-    
-      
     render() {
         const { data } = this.state.data;
         return (
             <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h1 className="App-title">Hello World!</h1>
-                </header>
                 <div>
-                    <button onClick={this.updateDataOnClick} value='advisor1.json'>Advisor 1</button>
-                    <button onClick={this.updateDataOnClick} value='advisor2.json'>Advisor 2</button>
-                    <button onClick={this.updateDataOnClick} value='advisor3.json'>Advisor 3</button>
+                <ul id='dropdown1' class='right dropdown-content'>
+                        <li><button href="#!" onClick={this.updateDataOnClick} className='dropdown-btn waves-effect waves-light btn btn-small btn-flat rsk-nav-item' value='advisor1.json'>Advisor 1</button></li>
+                        <li><button href="#!" onClick={this.updateDataOnClick} className='dropdown-btn waves-effect waves-light btn btn-small btn-flat rsk-nav-item' value='advisor1.json'>Advisor 2</button></li>
+                        <li><button href="#!" onClick={this.updateDataOnClick} className='dropdown-btn waves-effect waves-light btn btn-small btn-flat rsk-nav-item' value='advisor1.json'>Advisor 3</button></li>
+                    </ul>
+                <nav>
+                <div class="nav-wrapper">
+                    <a href="https://pro.riskalyze.com" class="brand-logo">
+                        <img src={logo} className="rsk-logo" alt="Riskalyze" />
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="dropdown-trigger rsk-nav-item" href="#!" data-target="dropdown1">Select Advisor<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                    
+                </div>
+                </nav>
                 </div>
                 <div className="force-graph-wrapper">
                     <ForceGraph3D 
                         graphData={this.state.data}
-                    >
+                        backgroundColor="#E8EBEE">
                     </ForceGraph3D>
                 </div>
             </div>

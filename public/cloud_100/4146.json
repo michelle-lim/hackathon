@@ -1,0 +1,182 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "account_00000000000000103661",
+            "val": 4.376801158991811,
+            "color": "#F6921E"
+        },
+        {
+            "id": 1,
+            "name": "advisor_4146",
+            "val": 40,
+            "color": "blue"
+        },
+        {
+            "id": 2,
+            "name": "client_188068",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 3,
+            "name": "account_00000000000000103662",
+            "val": 5.228904967217125,
+            "color": "#9999ff"
+        },
+        {
+            "id": 4,
+            "name": "account_00000000000000103663",
+            "val": 3.702184878621346,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 5,
+            "name": "client_187985",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 6,
+            "name": "account_00000000000000103876",
+            "val": 4.682363607484665,
+            "color": "#9999ff"
+        },
+        {
+            "id": 7,
+            "name": "client_188051",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 8,
+            "name": "account_00000000000000103878",
+            "val": 4.623227569443445,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 9,
+            "name": "client_188175",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 10,
+            "name": "account_00000000000000104043",
+            "val": 4.596045571453961,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 11,
+            "name": "client_186741",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 12,
+            "name": "account_00000000000000104044",
+            "val": 4.728401343104973,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 13,
+            "name": "account_00000000000000104136",
+            "val": 5.173883069502065,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 14,
+            "name": "client_187032",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 15,
+            "name": "account_00000000000000104146",
+            "val": 4.692770266584372,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 16,
+            "name": "account_00000000000000104148",
+            "val": 3.4627138636897623,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 17,
+            "name": "client_188043",
+            "val": 10,
+            "color": "#b3ccff"
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 2,
+            "target": 0
+        },
+        {
+            "source": 2,
+            "target": 3
+        },
+        {
+            "source": 1,
+            "target": 5
+        },
+        {
+            "source": 5,
+            "target": 4
+        },
+        {
+            "source": 1,
+            "target": 7
+        },
+        {
+            "source": 7,
+            "target": 6
+        },
+        {
+            "source": 1,
+            "target": 9
+        },
+        {
+            "source": 9,
+            "target": 8
+        },
+        {
+            "source": 1,
+            "target": 11
+        },
+        {
+            "source": 11,
+            "target": 10
+        },
+        {
+            "source": 9,
+            "target": 12
+        },
+        {
+            "source": 1,
+            "target": 14
+        },
+        {
+            "source": 14,
+            "target": 13
+        },
+        {
+            "source": 11,
+            "target": 15
+        },
+        {
+            "source": 1,
+            "target": 17
+        },
+        {
+            "source": 17,
+            "target": 16
+        }
+    ]
+}

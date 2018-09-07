@@ -1,0 +1,62 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "account_00000000000000045622",
+            "val": 5.073067227048452,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 1,
+            "name": "advisor_1077",
+            "val": 40,
+            "color": "blue"
+        },
+        {
+            "id": 2,
+            "name": "client_107838",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 3,
+            "name": "account_00000000000000076978",
+            "val": 5.871506850844102,
+            "color": "#F6921E"
+        },
+        {
+            "id": 4,
+            "name": "client_188095",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 5,
+            "name": "account_00000000000000076984",
+            "val": 4.25407922980488,
+            "color": "#ccffcc"
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 2,
+            "target": 0
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 4,
+            "target": 3
+        },
+        {
+            "source": 4,
+            "target": 5
+        }
+    ]
+}

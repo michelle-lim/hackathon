@@ -1,0 +1,92 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "account_00000000000000022816",
+            "val": 3.7060959395981015,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 1,
+            "name": "advisor_3414",
+            "val": 40,
+            "color": "blue"
+        },
+        {
+            "id": 2,
+            "name": "client_157335",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 3,
+            "name": "account_00000000000000054630",
+            "val": 3.4818842777141836,
+            "color": "#9999ff"
+        },
+        {
+            "id": 4,
+            "name": "client_54354",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 5,
+            "name": "account_00000000000000072752",
+            "val": 4.02748517702027,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 6,
+            "name": "account_00000000000000087519",
+            "val": 4.173431529766428,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 7,
+            "name": "account_00000000000000093462",
+            "val": 4.086711690185546,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 8,
+            "name": "client_4802",
+            "val": 10,
+            "color": "#b3ccff"
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 2,
+            "target": 0
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 4,
+            "target": 3
+        },
+        {
+            "source": 4,
+            "target": 5
+        },
+        {
+            "source": 4,
+            "target": 6
+        },
+        {
+            "source": 1,
+            "target": 8
+        },
+        {
+            "source": 8,
+            "target": 7
+        }
+    ]
+}

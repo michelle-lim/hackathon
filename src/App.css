@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -22,8 +22,42 @@
   font-size: large;
 }
 
+.rsk-logo {
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 30px;
+  text-align: left;
+}
 .force-graph-wrapper {
   height: 500px;
+}
+
+.dropdown-btn {
+  width: 100%;
+  height: 50px !important;
+}
+
+.nav-wrapper {
+  background-color: #E8EBEE;
+  box-shadow: 5px 10px;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  color: 404041;
+  text-align: right;
+}
+
+.rsk-nav-item {
+  color: #404041;
+  text-transform: uppercase;
+}
+
+.btn:hover, .btn-small:hover {
+  background-color: #E8EBEE;
 }
 
 @keyframes App-logo-spin {

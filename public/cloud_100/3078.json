@@ -1,0 +1,712 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "account_00000000000000004298",
+            "val": 4.591156979433543,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 1,
+            "name": "advisor_3078",
+            "val": 40,
+            "color": "blue"
+        },
+        {
+            "id": 2,
+            "name": "client_124754",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 3,
+            "name": "account_00000000000000010547",
+            "val": 4.543618394171828,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 4,
+            "name": "client_126258",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 5,
+            "name": "account_00000000000000024747",
+            "val": 5.138592548798231,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 6,
+            "name": "client_125836",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 7,
+            "name": "account_00000000000000031405",
+            "val": 4.622070843467704,
+            "color": "#F6921E"
+        },
+        {
+            "id": 8,
+            "name": "client_172831",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 9,
+            "name": "account_00000000000000031602",
+            "val": 4.853492942951473,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 10,
+            "name": "client_132443",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 11,
+            "name": "account_00000000000000031928",
+            "val": 4.3395208616563306,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 12,
+            "name": "client_132442",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 13,
+            "name": "account_00000000000000033686",
+            "val": 4.034081087250443,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 14,
+            "name": "client_127863",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 15,
+            "name": "account_00000000000000037830",
+            "val": 4.277839615726471,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 16,
+            "name": "client_125912",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 17,
+            "name": "account_00000000000000041664",
+            "val": 4.40064158605651,
+            "color": "#F6921E"
+        },
+        {
+            "id": 18,
+            "name": "client_126487",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 19,
+            "name": "account_00000000000000041791",
+            "val": 3.317113865503445,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 20,
+            "name": "account_00000000000000042176",
+            "val": 4.178886387740174,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 21,
+            "name": "client_126956",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 22,
+            "name": "account_00000000000000046255",
+            "val": 5.099035011987036,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 23,
+            "name": "account_00000000000000046864",
+            "val": 5.4206111395115935,
+            "color": "#F6921E"
+        },
+        {
+            "id": 24,
+            "name": "client_124758",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 25,
+            "name": "account_00000000000000047491",
+            "val": 5.2261651377557286,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 26,
+            "name": "client_147695",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 27,
+            "name": "account_00000000000000047846",
+            "val": 5.785626016657939,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 28,
+            "name": "client_156853",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 29,
+            "name": "account_00000000000000069053",
+            "val": 4.939390709137169,
+            "color": "#F6921E"
+        },
+        {
+            "id": 30,
+            "name": "client_127874",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 31,
+            "name": "account_00000000000000069391",
+            "val": 6.308476854787935,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 32,
+            "name": "client_126359",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 33,
+            "name": "account_00000000000000069523",
+            "val": 4.85695795461132,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 34,
+            "name": "client_126027",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 35,
+            "name": "account_00000000000000069526",
+            "val": 5.21520706771485,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 36,
+            "name": "client_124929",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 37,
+            "name": "account_00000000000000069528",
+            "val": 5.3969791536612055,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 38,
+            "name": "client_127060",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 39,
+            "name": "account_00000000000000069579",
+            "val": 5.427145669503181,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 40,
+            "name": "account_00000000000000069580",
+            "val": 5.749129650877642,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 41,
+            "name": "account_00000000000000069581",
+            "val": 5.303947740287775,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 42,
+            "name": "account_00000000000000069582",
+            "val": 5.066785705957731,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 43,
+            "name": "client_125150",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 44,
+            "name": "account_00000000000000069757",
+            "val": 4.806828340444923,
+            "color": "#9999ff"
+        },
+        {
+            "id": 45,
+            "name": "client_125837",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 46,
+            "name": "account_00000000000000069760",
+            "val": 4.740221743435462,
+            "color": "#9999ff"
+        },
+        {
+            "id": 47,
+            "name": "client_125101",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 48,
+            "name": "account_00000000000000069761",
+            "val": 5.444081874976052,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 49,
+            "name": "account_00000000000000069765",
+            "val": 4.75136649464459,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 50,
+            "name": "client_126402",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 51,
+            "name": "account_00000000000000073184",
+            "val": 5.260525786662882,
+            "color": "#F6921E"
+        },
+        {
+            "id": 52,
+            "name": "account_00000000000000074838",
+            "val": 5.762616871572645,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 53,
+            "name": "account_00000000000000075746",
+            "val": 5.1725083221109545,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 54,
+            "name": "account_00000000000000076068",
+            "val": 5.104402151656102,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 55,
+            "name": "account_00000000000000076330",
+            "val": 3.7983822942275287,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 56,
+            "name": "client_149095",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 57,
+            "name": "account_00000000000000077579",
+            "val": 5.522949133777835,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 58,
+            "name": "account_00000000000000077678",
+            "val": 4.650724457731231,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 59,
+            "name": "account_00000000000000085551",
+            "val": 4.832181759191839,
+            "color": "#F6921E"
+        },
+        {
+            "id": 60,
+            "name": "client_125849",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 61,
+            "name": "account_00000000000000086613",
+            "val": 5.8620371118846615,
+            "color": "#9999ff"
+        },
+        {
+            "id": 62,
+            "name": "client_125691",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 63,
+            "name": "account_00000000000000087949",
+            "val": 5.495710944557986,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 64,
+            "name": "client_156833",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 65,
+            "name": "account_00000000000000109045",
+            "val": 5.72807092981318,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 66,
+            "name": "account_00000000000000109349",
+            "val": 4.952027294198775,
+            "color": "#9999ff"
+        },
+        {
+            "id": 67,
+            "name": "client_125886",
+            "val": 10,
+            "color": "#b3ccff"
+        },
+        {
+            "id": 68,
+            "name": "account_00000000000000109524",
+            "val": 5.304991699154434,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 69,
+            "name": "account_00000000000000109666",
+            "val": 5.434080913135116,
+            "color": "#ccffcc"
+        },
+        {
+            "id": 70,
+            "name": "account_00000000000000112053",
+            "val": 3.486276004081508,
+            "color": "#F6921E"
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 2,
+            "target": 0
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 4,
+            "target": 3
+        },
+        {
+            "source": 1,
+            "target": 6
+        },
+        {
+            "source": 6,
+            "target": 5
+        },
+        {
+            "source": 1,
+            "target": 8
+        },
+        {
+            "source": 8,
+            "target": 7
+        },
+        {
+            "source": 1,
+            "target": 10
+        },
+        {
+            "source": 10,
+            "target": 9
+        },
+        {
+            "source": 1,
+            "target": 12
+        },
+        {
+            "source": 12,
+            "target": 11
+        },
+        {
+            "source": 1,
+            "target": 14
+        },
+        {
+            "source": 14,
+            "target": 13
+        },
+        {
+            "source": 1,
+            "target": 16
+        },
+        {
+            "source": 16,
+            "target": 15
+        },
+        {
+            "source": 1,
+            "target": 18
+        },
+        {
+            "source": 18,
+            "target": 17
+        },
+        {
+            "source": 8,
+            "target": 19
+        },
+        {
+            "source": 1,
+            "target": 21
+        },
+        {
+            "source": 21,
+            "target": 20
+        },
+        {
+            "source": 12,
+            "target": 22
+        },
+        {
+            "source": 1,
+            "target": 24
+        },
+        {
+            "source": 24,
+            "target": 23
+        },
+        {
+            "source": 1,
+            "target": 26
+        },
+        {
+            "source": 26,
+            "target": 25
+        },
+        {
+            "source": 1,
+            "target": 28
+        },
+        {
+            "source": 28,
+            "target": 27
+        },
+        {
+            "source": 1,
+            "target": 30
+        },
+        {
+            "source": 30,
+            "target": 29
+        },
+        {
+            "source": 1,
+            "target": 32
+        },
+        {
+            "source": 32,
+            "target": 31
+        },
+        {
+            "source": 1,
+            "target": 34
+        },
+        {
+            "source": 34,
+            "target": 33
+        },
+        {
+            "source": 1,
+            "target": 36
+        },
+        {
+            "source": 36,
+            "target": 35
+        },
+        {
+            "source": 1,
+            "target": 38
+        },
+        {
+            "source": 38,
+            "target": 37
+        },
+        {
+            "source": 6,
+            "target": 39
+        },
+        {
+            "source": 2,
+            "target": 40
+        },
+        {
+            "source": 14,
+            "target": 41
+        },
+        {
+            "source": 1,
+            "target": 43
+        },
+        {
+            "source": 43,
+            "target": 42
+        },
+        {
+            "source": 1,
+            "target": 45
+        },
+        {
+            "source": 45,
+            "target": 44
+        },
+        {
+            "source": 1,
+            "target": 47
+        },
+        {
+            "source": 47,
+            "target": 46
+        },
+        {
+            "source": 47,
+            "target": 48
+        },
+        {
+            "source": 1,
+            "target": 50
+        },
+        {
+            "source": 50,
+            "target": 49
+        },
+        {
+            "source": 26,
+            "target": 51
+        },
+        {
+            "source": 28,
+            "target": 52
+        },
+        {
+            "source": 12,
+            "target": 53
+        },
+        {
+            "source": 10,
+            "target": 54
+        },
+        {
+            "source": 1,
+            "target": 56
+        },
+        {
+            "source": 56,
+            "target": 55
+        },
+        {
+            "source": 8,
+            "target": 57
+        },
+        {
+            "source": 8,
+            "target": 58
+        },
+        {
+            "source": 1,
+            "target": 60
+        },
+        {
+            "source": 60,
+            "target": 59
+        },
+        {
+            "source": 1,
+            "target": 62
+        },
+        {
+            "source": 62,
+            "target": 61
+        },
+        {
+            "source": 1,
+            "target": 64
+        },
+        {
+            "source": 64,
+            "target": 63
+        },
+        {
+            "source": 47,
+            "target": 65
+        },
+        {
+            "source": 1,
+            "target": 67
+        },
+        {
+            "source": 67,
+            "target": 66
+        },
+        {
+            "source": 12,
+            "target": 68
+        },
+        {
+            "source": 36,
+            "target": 69
+        },
+        {
+            "source": 34,
+            "target": 70
+        }
+    ]
+}

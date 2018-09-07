@@ -1,0 +1,32 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "account_00000000000000107176",
+            "val": 3.8142069619853793,
+            "color": "#9999ff"
+        },
+        {
+            "id": 1,
+            "name": "advisor_3576",
+            "val": 40,
+            "color": "blue"
+        },
+        {
+            "id": 2,
+            "name": "client_188968",
+            "val": 10,
+            "color": "#b3ccff"
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 2,
+            "target": 0
+        }
+    ]
+}
